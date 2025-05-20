@@ -14,15 +14,18 @@
             font-size: 1.5em;
         }
 
-	details {
-		cursor: pointer;
-	}
+        details {
+            cursor: pointer;
+        }
 
-	details ul, details .transcript { 
-		cursor: auto;
-	}
+        details ul,
+        details .transcript {
+            cursor: auto;
+        }
 
-	.toc { font-size: 14pt; }
+        .toc {
+            font-size: 14pt;
+        }
 
         .transcript {
             font-size: 12.5pt;
@@ -33,7 +36,8 @@
             padding: 4px;
         }
 
-        .transcript div:hover, .toc li:hover {
+        .transcript div:hover,
+        .toc li:hover {
             cursor: alias;
         }
 
@@ -64,7 +68,7 @@
 </head>
 
 <body>
-	<h1>ct 120 tutorials</h1>
+    <h1>ct 120 tutorials</h1>
     <div>
         <h3>table of contents</h3>
         <ul>
@@ -75,15 +79,15 @@
             <li><a href="#tracks1">tracks</a></li>
             <li><a href="#tracks2">tracks (appendix)</a></li>
             <li><a href="#pericarp">pericarp.js and friends</a></li>
-	    <li><a href="#difference">ghosts, users cameras, and measures of difference</a></li>
-	    <li><a href="#instructions">following instructions: drawings, compositions, recipes, and spells</a></li>
+            <li><a href="#difference">ghosts, users cameras, and measures of difference</a></li>
+            <li><a href="#instructions">following instructions: drawings, compositions, recipes, and spells</a></li>
         </ul>
         <p><span class="disc">disclaimer:</span> captions are generated and probably contain mistakes</p>
     </div>
-https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
+    https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
     <section id="time_text">
         <h3>time and text</h3>
-	<p>jokerified scripting time using setTimeout, setInterval, and event listeners</p>
+        <p>jokerified scripting time using setTimeout, setInterval, and event listeners</p>
         <video controls src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/time_and_text.mp4">
             <track kind="captions" src="../videos/time_and_text.vtt" srclang="en" default>
         </video>
@@ -91,8 +95,8 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
                 href="https://aphid.github.io/time.html">live on web</a></p>
     </section>
     <section id="events">
-	<h3>event listeners</h3>
-	<p>using event listeners to detect when content has loaded and make code run based on video events</p>
+        <h3>event listeners</h3>
+        <p>using event listeners to detect when content has loaded and make code run based on video events</p>
         <video controls src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/events1.mp4">
             <track kind="captions" src="../videos/events1.vtt" srclang="en" default>
         </video>
@@ -100,8 +104,8 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
                 href="https://aphid.github.io/events.html">live on web</a></p>
     </section>
     <section id="overlay">
-	<h3>overlay</h3>
-	<p>overlaying and controlling content on top of video, complete with an army of dancing Linuses</p>
+        <h3>overlay</h3>
+        <p>overlaying and controlling content on top of video, complete with an army of dancing Linuses</p>
         <video controls src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/overlay.mp4">
             <track kind="captions" src="../videos/overlay.vtt" srclang="en" default>
         </video>
@@ -110,7 +114,7 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
     </section>
     <section id="loops">
         <h3>➿loops➿loops➿loops➿</h3>
-	<p>Steve Reich style tape loops in the browser</p>
+        <p>Steve Reich style tape loops in the browser</p>
         <p>"that background elemente is the web equivalent of a jump scare"</p>
 
         <video controls src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/loopsloopsloops.mp4">
@@ -121,14 +125,16 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
     </section>
     <section id="tracks">
         <h3 id="tracks1">tracks</h3>
-	<p>Working with the track element to add timed text to timed content &amp;how to access this material programmatically.</p>
+        <p>Working with the track element to add timed text to timed content &amp;how to access this material
+            programmatically.</p>
         <p>this one is pretty long and gets a bit rambly, no need to listen to me explain transcript.js unless you're
             really curious about how it works</p>
         <video controls src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/tracks_i.mp4">
             <track kind="captions" src="../videos/tracks_i.vtt" srclang="en" default>
         </video>
         <p><a href="https://github.com/aphid/aphid.github.io/blob/main/tracks.html">source code</a> and <a
-                href="https://aphid.github.io/tracks.html">live on web</a>; also - <a href="https://github.com/aphid/aphid.github.io/blob/main/transcript.js">transcript.js</a></p>
+                href="https://aphid.github.io/tracks.html">live on web</a>; also - <a
+                href="https://github.com/aphid/aphid.github.io/blob/main/transcript.js">transcript.js</a></p>
 
         <h3 id="tracks2">tracks (appendix)</h3>
         <p>quick walkthrough of VTT and some tools for working with it</p>
@@ -144,10 +150,12 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
 
     <section id="pericarp">
         <h3>pericarp.js AND FRIENDS</h3>
-	<p>introducing pericarp with two prototype projects, please use the table of contents below to navigate this long long long video</p>
+        <p>introducing pericarp with two prototype projects, please use the table of contents below to navigate this
+            long long long video</p>
         <video src="../videos/how2pericarp.mp4" controls>
             <track kind="captions" label="captions" src="../videos/how2pericarp.vtt" srclang="en" default>
-            <track id="pcChapter" kind="chapters" label="chapters" src="../videos/how2pericarp_chapters.vtt" srclang="en">
+            <track id="pcChapter" kind="chapters" label="chapters" src="../videos/how2pericarp_chapters.vtt"
+                srclang="en">
         </video>
         <ul>
             <li><a href="https://github.com/aphid/pericarp/">pericarp repository</a></li>
@@ -160,95 +168,118 @@ https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/
                     href="https://github.com/aphid/aphid.github.io/blob/main/plants.html"> source code</a>
             </li>
         </ul>
-	<details><summary>Video TOC</summary>
-	<ul class="toc"></ul>
-	</details>
+        <details>
+            <summary>Video TOC</summary>
+            <ul class="toc"></ul>
+        </details>
     </section>
-    <section id="difference"><h3>ghosts, users' cameras, and difference</h3>
-	    <p>in this tutorial we look at Lisa Jevbratt's 'EVIDENCE (DAYS FOLLOWING DIFFERENCE)' and use blending modes on time-separated image composites. I start to try this with audio but things go awry!</p>
-	    <video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/difference.mp4" controls><track srclang="en" label="captions" src="../videos/difference.vtt" kind="captions" default></video>
-	    <h4>resources</h4>
-	    <ul><li>code: <a href="https://github.com/aphid/aphid.github.io/blob/main/difference_v.html">video difference</a> and <a href="https://aphid.github.io/difference_v.html">live webpage</a>; <a href="https://github.com/aphid/aphid.github.io/blob/main/difference_a.html">audio difference</a> and <a href="https://aphid.github.io/difference_a.html">live webpage</a>
-		    <li>Lisa Jevbratt's <a href="https://rosebud.arts.ucsb.edu/~jevbratt/evidence/days_following/documentation/limits_of_knowledge/">EVIDENCE (DAYS FOLLOWING DIFFERENCE)</a></li>
-		    <li><a href="https://drafts.fxtf.org/compositing/#valdef-blend-mode-difference">Specification</a> for blending modes</li>
-		    <li><a href="https://www.theghostinthemp3.com/theghostinthemp3.html">ghost in the mp3</a>, a different approach to subtracting sound</li>
-	    </ul>
-	</section>
-	<section id="instructions">
-	    <h3>instructions: drawings, compositions, recipes, and spells</h3>
-	    <p><em>tutorial is the top resource below</em></p>
+    <section id="difference">
+        <h3>ghosts, users' cameras, and difference</h3>
+        <p>in this tutorial we look at Lisa Jevbratt's 'EVIDENCE (DAYS FOLLOWING DIFFERENCE)' and use blending modes on
+            time-separated image composites. I start to try this with audio but things go awry!</p>
+        <video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/difference.mp4" controls>
+            <track srclang="en" label="captions" src="../videos/difference.vtt" kind="captions" default>
+        </video>
+        <h4>resources</h4>
+        <ul>
+            <li>code: <a href="https://github.com/aphid/aphid.github.io/blob/main/difference_v.html">video
+                    difference</a> and <a href="https://aphid.github.io/difference_v.html">live webpage</a>; <a
+                    href="https://github.com/aphid/aphid.github.io/blob/main/difference_a.html">audio difference</a> and
+                <a href="https://aphid.github.io/difference_a.html">live webpage</a>
+            <li>Lisa Jevbratt's <a
+                    href="https://rosebud.arts.ucsb.edu/~jevbratt/evidence/days_following/documentation/limits_of_knowledge/">EVIDENCE
+                    (DAYS FOLLOWING DIFFERENCE)</a></li>
+            <li><a href="https://drafts.fxtf.org/compositing/#valdef-blend-mode-difference">Specification</a> for
+                blending modes</li>
+            <li><a href="https://www.theghostinthemp3.com/theghostinthemp3.html">ghost in the mp3</a>, a different
+                approach to subtracting sound</li>
+        </ul>
+    </section>
+    <section id="instructions">
+        <h3>instructions: drawings, compositions, recipes, and spells</h3>
+        <p><em>tutorial is the top resource below</em></p>
 
-	    <h4>resources</h4>
-	    <ul>
-		    <li><a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html">code talkthrough</a> attempting a sol lewitt drawing with HTML canvas.</li>
-		    <li><a href="https://monoskop.org/images/0/06/Young_La_Monte_Mac_Law_Jackson_eds_An_Anthology_of_Chance_Operations.pdf">An Anthology of chance operations concept art anti-art indeterminacy improvisation meaningless work natural disasters plans of action stories diagrams Music poetry essays dance constructions mathematics compositions</a>, La Monte Young (1963)</li>
-		    <li>Yoko Ono's <a href="https://christofscreations.wordpress.com/2016/11/23/yoko-ono-instruction-paintings/">instruction paintings</a> (please do not attempt BLOOD PIECE</li>
-		    <li>Alison Knowles's <a href="https://en.wikipedia.org/wiki/Make_a_Salad">Make a Salad</a>(1962-)</li>
-		    <li>Corita Kent's <a href="https://might-could.com/essays/10-rules-for-artists-by-sister-corita-kent/">10 rules for artists</a> (1960s)</li>
+        <h4>resources</h4>
+        <ul>
+            <li><a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html">code talkthrough</a> attempting a sol
+                lewitt drawing with HTML canvas.</li>
+            <li><a
+                    href="https://monoskop.org/images/0/06/Young_La_Monte_Mac_Law_Jackson_eds_An_Anthology_of_Chance_Operations.pdf">An
+                    Anthology of chance operations concept art anti-art indeterminacy improvisation meaningless work
+                    natural disasters plans of action stories diagrams Music poetry essays dance constructions
+                    mathematics compositions</a>, La Monte Young (1963)</li>
+            <li>Yoko Ono's <a
+                    href="https://monoskop.org/images/archive/6/64/20190320203953%21Ono_Yoko_Grapefruit_A_Book_of_Instructions_and_Drawings_2000.pdf">A
+                    Book of Instruction and Drawing</a> (please do not attempt BLOOD PIECE</li>
+            <li>Alison Knowles's <a href="https://en.wikipedia.org/wiki/Make_a_Salad">Make a Salad</a>(1962-)</li>
+            <li>Corita Kent's <a href="https://might-could.com/essays/10-rules-for-artists-by-sister-corita-kent/">10
+                    rules for artists</a> (1960s)</li>
 
-	    </ul>
+        </ul>
 
-    <h3>more videos and example code are forthcoming</h3>
+        <h3>more videos and example code are forthcoming</h3>
 
-    <aside>aside: if you view source on this page, you'll see that I'm using the "track" tag to embed captions for these
-        videos. I generated them using <a href="https://github.com/jianfch/stable-ts">stable-ts</a>, a server-side
-        python based transcription tool that can generate VTT files from audio.</aside>
+        <aside>aside: if you view source on this page, you'll see that I'm using the "track" tag to embed captions for
+            these
+            videos. I generated them using <a href="https://github.com/jianfch/stable-ts">stable-ts</a>, a server-side
+            python based transcription tool that can generate VTT files from audio.</aside>
 </body>
 <script src="transcript.js"></script>
 <script>
-document.addEventListener("DOMContentLoaded", async function(){
-	let pcv = document.querySelector("#pericarp video");
-	if (pcv.readyState === 0){
-  		await wait4(pcv, "loadedmetadata");
-	}
-	makeTOC(pcv);
-});
+    document.addEventListener("DOMContentLoaded", async function () {
+        let pcv = document.querySelector("#pericarp video");
+        if (pcv.readyState === 0) {
+            await wait4(pcv, "loadedmetadata");
+        }
+        makeTOC(pcv);
+    });
 
-async function wait4(target, theEvent){
-   return new Promise(function(resolve){
-      target.addEventListener(theEvent, () => {
-         resolve();
-      });
-   });
-}
-	
-async function makeTOC(pcv){
-	let chapters;
-	for (let trk of pcv.textTracks){
-		console.log(trk.kind);
-		if (trk.kind === "chapters"){
-		trk.mode = "hidden";
-		console.log(trk.id);
-			await wait4(document.querySelector(`#${trk.id}`),"load");
-		console.log("ok!!!!");
-		chapters = trk;
-	}
-	}
-	if (chapters){
-		console.log(chapters);
-		processChapterCues(chapters.id, chapters.cues)
-	}
-};
+    async function wait4(target, theEvent) {
+        return new Promise(function (resolve) {
+            target.addEventListener(theEvent, () => {
+                resolve();
+            });
+        });
+    }
 
-function processChapterCues(trk,cues){
-	let toc = document.querySelector(`#${trk}`).closest("section").querySelector(".toc");
-	let vid = document.querySelector(`#${trk}`).closest("section").querySelector("video");
-	console.log(toc);
-	console.log("processing cues", cues);
-	for (let c of cues){
-	     let item = document.createElement("li");
-	     item.dataset.start = c.startTime;
-	     item.textContent = toHMS(c.startTime) + ": " + c.text;
-	     toc.appendChild(item);
-	     item.addEventListener("click", function() {
-		vid.currentTime = item.dataset.start;
-		vid.play();
-	     });
-	}
-}
+    async function makeTOC(pcv) {
+        let chapters;
+        for (let trk of pcv.textTracks) {
+            console.log(trk.kind);
+            if (trk.kind === "chapters") {
+                trk.mode = "hidden";
+                console.log(trk.id);
+                await wait4(document.querySelector(`#${trk.id}`), "load");
+                console.log("ok!!!!");
+                chapters = trk;
+            }
+        }
+        if (chapters) {
+            console.log(chapters);
+            processChapterCues(chapters.id, chapters.cues)
+        }
+    };
 
-function toHMS(sec) {
-    return new Date(sec * 1000).toISOString().slice(11, 19);
-}
+    function processChapterCues(trk, cues) {
+        let toc = document.querySelector(`#${trk}`).closest("section").querySelector(".toc");
+        let vid = document.querySelector(`#${trk}`).closest("section").querySelector("video");
+        console.log(toc);
+        console.log("processing cues", cues);
+        for (let c of cues) {
+            let item = document.createElement("li");
+            item.dataset.start = c.startTime;
+            item.textContent = toHMS(c.startTime) + ": " + c.text;
+            toc.appendChild(item);
+            item.addEventListener("click", function () {
+                vid.currentTime = item.dataset.start;
+                vid.play();
+            });
+        }
+    }
+
+    function toHMS(sec) {
+        return new Date(sec * 1000).toISOString().slice(11, 19);
+    }
 </script>
+
 </html>
