@@ -41,7 +41,7 @@
             cursor: alias;
         }
 
-        video {
+        video, .fullimg {
             display: block;
             width: 80vw;
         }
@@ -198,7 +198,7 @@
     <section id="instructions">
         <h3>instructions: drawings, compositions, recipes, and spells</h3>
         <p><em>tutorial is the top resource below</em></p>
-
+	<a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html"><img src="talkthrough.png" class="fullimg"></a>
         <h4>resources</h4>
         <ul>
             <li><a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html">code talkthrough</a> attempting a sol
@@ -217,6 +217,7 @@
 
         </ul>
 
+    </section>
         <h3>more videos and example code are forthcoming</h3>
 
         <aside>aside: if you view source on this page, you'll see that I'm using the "track" tag to embed captions for
@@ -226,6 +227,12 @@
 </body>
 <script src="transcript.js"></script>
 <script>
+    for (let a of document.querySelectorAll("a")){
+        a.setAttribute("target", "_blank");
+
+    }
+
+
     document.addEventListener("DOMContentLoaded", async function () {
         let pcv = document.querySelector("#pericarp video");
         if (pcv.readyState === 0) {
