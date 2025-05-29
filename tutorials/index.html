@@ -41,7 +41,8 @@
             cursor: alias;
         }
 
-        video, .fullimg {
+        video,
+        .fullimg {
             display: block;
             width: 80vw;
         }
@@ -81,7 +82,9 @@
             <li><a href="#pericarp">pericarp.js and friends</a></li>
             <li><a href="#difference">ghosts, users cameras, and measures of difference</a></li>
             <li><a href="#instructions">following instructions: drawings, compositions, recipes, and spells</a></li>
-	    <li><a href="#paintings">instructions ii: two instructional paintings</a></li>
+
+            <li><a href="#paintings">instructions ii: two instructional paintings</a></li>
+            <li><a href="#serverside">server side coding, the command line, and beyond</a></li>
         </ul>
         <p><span class="disc">disclaimer:</span> captions are generated and probably contain mistakes</p>
     </div>
@@ -198,7 +201,7 @@
     <section id="instructions">
         <h3>instructions: drawings, compositions, recipes, and spells</h3>
         <p><em>tutorial is the top resource below</em></p>
-	<a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html"><img src="talkthrough.png" class="fullimg"></a>
+        <a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html"><img src="talkthrough.png" class="fullimg"></a>
         <h4>resources</h4>
         <ul>
             <li><a href="https://people.ucsc.edu/~aphid/170a_2020/drawings.html">code talkthrough</a> attempting a sol
@@ -216,52 +219,71 @@
                     rules for artists</a> (1960s)</li>
 
         </ul>
-	<hr/>
-	<h3 id="paintings">Instructional Paintings</h3>
-	<video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/instructions.mp4" controls>
-		<track src="../videos/instructions.vtt" srclang="en" default>
-	</video>
-	<h4>Resources</a>
-	<ul><li>Tutorial example code: <a href="https://github.com/aphid/aphid.github.io/blob/main/skies.html">painting to see the skies</a> code and <a href="https://aphid.github.io/skies.html">live page</a>
-                   ; <a href="https://github.com/aphid/aphid.github.io/blob/main/scream.html">voice piece for soprano</a> source code and <a
-                    href="https://aphid.github.io/scream.html">live page</a></li>
-        <li>Jonathan Sterne, <a href="https://sterneworks.org/reverb--sterne.pdf">Space within Space: Artificial Reverb and the Detachable Echo</a></li>
-        <ul><li style="font-size: 12pt">Two videos about colvolusion reverb: <a href="https://www.youtube.com/watch?v=EpzNgP8uThs">one</a> and <a href="https://www.youtube.com/watch?v=QNn8aPehlf8">two</a>. (Sterne recommended these as support for a talk he gave at Stanford related to the above paper)</a></li></ul>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateY">transform</a> vs <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale">translate</a> (both are transforms, but with different arguments)</li>
-		<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using the Web Audio API</a> on MDN</li>
-		<li><a href="https://www.openair.hosted.york.ac.uk/?page_id=36">Open Air Impulse Response repository</a></li>
-	</ul>
+        <hr />
+        <h3 id="paintings">Instructional Paintings</h3>
+        <video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/instructions.mp4" controls>
+            <track src="../videos/instructions.vtt" srclang="en" default>
+        </video>
+        <h4>Resources</a>
+            <ul>
+                <li>Tutorial example code: <a
+                        href="https://github.com/aphid/aphid.github.io/blob/main/skies.html">painting to see the
+                        skies</a> code and <a href="https://aphid.github.io/skies.html">live page</a>
+                    ; <a href="https://github.com/aphid/aphid.github.io/blob/main/scream.html">voice piece for
+                        soprano</a> source code and <a href="https://aphid.github.io/scream.html">live page</a></li>
+                <li>Jonathan Sterne, <a href="https://sterneworks.org/reverb--sterne.pdf">Space within Space: Artificial
+                        Reverb and the Detachable Echo</a></li>
+                <ul>
+                    <li style="font-size: 12pt">Two videos about colvolusion reverb: <a
+                            href="https://www.youtube.com/watch?v=EpzNgP8uThs">one</a> and <a
+                            href="https://www.youtube.com/watch?v=QNn8aPehlf8">two</a>. (Sterne recommended these as
+                        support for a talk he gave at Stanford related to the above paper)</a></li>
+                </ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotateY">transform</a>
+                    vs <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale">translate</a>
+                    (both are transforms, but with different arguments)</li>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API/Using_Web_Audio_API">Using
+                        the Web Audio API</a> on MDN</li>
+                <li><a href="https://www.openair.hosted.york.ac.uk/?page_id=36">Open Air Impulse Response repository</a>
+                </li>
+            </ul>
 
     </section>
 
     <section id="serverside">
         <h3>serverside, cli, and beyond</h3>
-        <p>a brief discussion of serverside &amp; command line coding. beyond the scope of this class but important for future projects</p>
-    <video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/serverside.mp4">
-        <track src="videos/serverside.vtt" srclang="en" default>
-    </video>
-    <h4>Resources</h4>
-        <ul><li>Sam Lavigne's <a href="https://scrapism.lav.io/intro-to-the-command-line/">command line tutorial</a></li>
+        <p>a brief discussion of serverside &amp; command line coding. beyond the scope of this class but important for
+            future projects</p>
+        <video src="https://github.com/ct120/ct120.github.io/raw/refs/heads/main/videos/serverside.mp4">
+            <track src="videos/serverside.vtt" srclang="en" default>
+        </video>
+        <h4>Resources</h4>
+        <ul>
+            <li>Sam Lavigne's <a href="https://scrapism.lav.io/intro-to-the-command-line/">command line tutorial</a>
+            </li>
             <li><a href="https://nodejs.org/en">Node.js</a></li>
             <li><a href="https://www.npmjs.com">npm</a> (node package manager)</li>
             <li><a href="https://github.com/nvm-sh/nvm">nvm</a> (node version manager)</li>
-            <li><a href="https://www.duckdns.org/">DuckDNS</a>, useful for having a persistent domain pointing at a home server (especially with an unstable IP address).</li>
+            <li><a href="https://www.duckdns.org/">DuckDNS</a>, useful for having a persistent domain pointing at a home
+                server (especially with an unstable IP address).</li>
             <li><a href="https://vercel.com/pricing">vercel</a> serverless hosting</li>
-            <li><a href="https://www.cloudflare.com/plans/developer-platform/">cloudflare workers</a> serverless hosting</li>
-            <li>DigitalOcean <a href="https://www.digitalocean.com/pricing/droplets">VPS</a>, a virtual server that is effectively a full fledged remote linux box.</li>
-    
+            <li><a href="https://www.cloudflare.com/plans/developer-platform/">cloudflare workers</a> serverless hosting
+            </li>
+            <li>DigitalOcean <a href="https://www.digitalocean.com/pricing/droplets">VPS</a>, a virtual server that is
+                effectively a full fledged remote linux box.</li>
+
         </ul>
     </section>
-        <h3>more videos and example code are forthcoming</h3>
+    <h3>more videos and example code are forthcoming</h3>
 
-        <aside>aside: if you view source on this page, you'll see that I'm using the "track" tag to embed captions for
-            these
-            videos. I generated them using <a href="https://github.com/jianfch/stable-ts">stable-ts</a>, a server-side
-            python based transcription tool that can generate VTT files from audio.</aside>
+    <aside>aside: if you view source on this page, you'll see that I'm using the "track" tag to embed captions for
+        these
+        videos. I generated them using <a href="https://github.com/jianfch/stable-ts">stable-ts</a>, a server-side
+        python based transcription tool that can generate VTT files from audio.</aside>
 </body>
 <script src="transcript.js"></script>
 <script>
-    for (let a of document.querySelectorAll("a")){
+    for (let a of document.querySelectorAll("a")) {
         a.setAttribute("target", "_blank");
 
     }
